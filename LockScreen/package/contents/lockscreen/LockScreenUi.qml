@@ -192,10 +192,9 @@ Item {
 
         Component.onCompleted: launchAnimation.start();
 
-        TelystaWallpaperFader {
+        WallpaperFader {
             anchors.fill: parent
 
-            effectStrength: 0.28
 
             state: lockScreenRoot.uiVisible ? "on" : "off"
             source: wallpaper
