@@ -30,7 +30,7 @@ fi
 # Color Scheme
 # ============================================================
 
-echo "[1/2] KDE Color Scheme"
+echo "[1/3] KDE Color Scheme"
 echo
 
 "$ROOT_DIR/ColorScheme/apply.sh"
@@ -42,10 +42,22 @@ echo
 # Global Appearance
 # ============================================================
 
-echo "[2/2] Global Appearance"
+echo "[2/3] Global Appearance"
 echo
 
 "$ROOT_DIR/GlobalAppearance/apply.sh"
+
+echo
+
+
+# ============================================================
+# Wallpaper
+# ============================================================
+
+echo "[3/3] Wallpaper"
+echo
+
+"$ROOT_DIR/Wallpaper/apply.sh"
 
 echo
 
