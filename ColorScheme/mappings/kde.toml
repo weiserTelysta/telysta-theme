@@ -1,0 +1,243 @@
+# ==============================================================================
+# Telysta KDE Color Mapping
+#
+# All color values reference names from the selected palette.
+# Do not write HEX or RGB values here.
+# ==============================================================================
+
+
+# ==============================================================================
+# Metadata
+# ==============================================================================
+
+[meta]
+
+scheme_id = "Telysta"
+scheme_name = "Telysta"
+shade_sort_column = true
+
+
+# ==============================================================================
+# Accent
+# ==============================================================================
+
+[accent]
+
+active = "mauve"
+focus = "mauve"
+hover = "lavender"
+
+
+# ==============================================================================
+# Semantic Colors
+# ==============================================================================
+
+[semantic]
+
+link = "blue"
+visited = "mauve"
+
+negative = "red"
+neutral = "peach"
+positive = "green"
+
+
+# ==============================================================================
+# Window
+#
+# General application window surfaces.
+# ==============================================================================
+
+[window]
+
+background = "base"
+alternate = "mantle"
+
+text = "text"
+inactive = "subtext0"
+
+
+# ==============================================================================
+# View
+#
+# File views, lists, tables, editable/selectable areas.
+# ==============================================================================
+
+[view]
+
+background = "base"
+alternate = "mantle"
+
+text = "text"
+inactive = "subtext0"
+
+
+# ==============================================================================
+# Button
+#
+# Buttons and button-like controls.
+# ==============================================================================
+
+[button]
+
+background = "surface0"
+alternate = "surface1"
+
+text = "text"
+inactive = "subtext0"
+
+
+# ==============================================================================
+# Header
+# ==============================================================================
+
+[header]
+
+background = "mantle"
+alternate = "surface0"
+
+text = "text"
+inactive = "subtext0"
+
+
+# ==============================================================================
+# Inactive Header
+# ==============================================================================
+
+[header_inactive]
+
+background = "base"
+alternate = "mantle"
+
+text = "subtext1"
+inactive = "overlay1"
+
+active = "subtext1"
+
+link = "blue"
+visited = "mauve"
+
+negative = "red"
+neutral = "peach"
+positive = "green"
+
+focus = "mauve"
+hover = "lavender"
+
+
+# ==============================================================================
+# Tooltip
+# ==============================================================================
+
+[tooltip]
+
+background = "surface0"
+alternate = "surface1"
+
+text = "text"
+inactive = "subtext0"
+
+
+# ==============================================================================
+# Complementary
+#
+# Surfaces intentionally separated from the normal application surface.
+# ==============================================================================
+
+[complementary]
+
+background = "crust"
+alternate = "mantle"
+
+text = "text"
+inactive = "subtext0"
+
+
+# ==============================================================================
+# Selection
+#
+# Selected files, rows, text and other selected items.
+# ==============================================================================
+
+[selection]
+
+background = "mauve"
+alternate = "lavender"
+
+text = "crust"
+inactive = "surface0"
+active = "crust"
+
+link = "crust"
+visited = "crust"
+
+negative = "crust"
+neutral = "crust"
+positive = "crust"
+
+focus = "lavender"
+hover = "blue"
+
+
+# ==============================================================================
+# Disabled Color Effect
+# ==============================================================================
+
+[effects.disabled]
+
+color = "overlay0"
+
+color_amount = 0.0
+color_effect = 0
+
+contrast_amount = 0.65
+contrast_effect = 1
+
+intensity_amount = 0.10
+intensity_effect = 2
+
+
+# ==============================================================================
+# Inactive Color Effect
+# ==============================================================================
+
+[effects.inactive]
+
+change_selection_color = true
+
+color = "overlay1"
+
+color_amount = 0.025
+color_effect = 2
+
+contrast_amount = 0.10
+contrast_effect = 2
+
+enabled = false
+
+intensity_amount = 0.0
+intensity_effect = 0
+
+
+# ==============================================================================
+# KDE
+# ==============================================================================
+
+[kde]
+
+contrast = 4
+
+
+# ==============================================================================
+# Window Manager
+# ==============================================================================
+
+[wm]
+
+active_background = "mantle"
+active_blend = "mantle"
+active_foreground = "text"
+
+inactive_background = "base"
+inactive_blend = "base"
+inactive_foreground = "subtext0"
